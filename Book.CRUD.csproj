@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Broker\Storeage\**" />
+    <EmbeddedResource Remove="Broker\Storeage\**" />
+    <None Remove="Broker\Storeage\**" />
+  </ItemGroup>
+
 </Project>
