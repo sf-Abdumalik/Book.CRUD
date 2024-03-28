@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.CRUD.Models
+namespace Book.CRUD.Models  
 {
-    internal class Book
+    internal class Books
     {
         public int Id { get; set; }
         public string Name { get; set; }
