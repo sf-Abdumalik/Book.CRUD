@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Book.CRUD.Broker.Storeage
 {
-    interface IStoreageBroker
+    internal class ArrayStoreageBroker
     {
-        Books ReadBook(int id);
+
     }
 }
