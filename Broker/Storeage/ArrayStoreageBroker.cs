@@ -13,14 +13,14 @@ namespace Book.CRUD.Broker.Storeage
             BooksInfo[0] = new Books()
             {
                 Id = 1,
-                Name = "Test",
-                Author = "Test Author"
+                Name = "O'tgan kunlar",
+                Author = "Abdulla Qodiriy"
             };
             BooksInfo[1] = new Books()
             {
                 Id = 2,
-                Name = "Test2",
-                Author = "Test2 Author"
+                Name = "Shum bola",
+                Author = "G'afur G'ulom"
             };
         }
         public Books ReadBook(int id)
